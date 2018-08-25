@@ -3,8 +3,6 @@
   Axon is a message-oriented socket library for node.js heavily inspired by zeromq. For a light-weight
   UDP alternative you may be interested in [punt](https://github.com/tj/punt).
 
-[![Build Status](https://travis-ci.org/tj/axon.png)](https://travis-ci.org/tj/axon)
-
 ## Installation
 
     $ npm install axon
@@ -245,7 +243,7 @@ sock.on('*', function(event){
 Every socket has associated options that can be configured via `get/set`.
 
   - `identity` - the "name" of the socket that uniqued identifies it.
-  - `retry timeout` - connection retry timeout in milliseconds [100]
+  - `retry timeout` - connection retry timeout in milliseconds [100] (0 = do not reconnect)
   - `retry max timeout` - the cap for retry timeout length in milliseconds [5000]
   - `hwm` - the high water mark threshold for queues [Infinity]
 

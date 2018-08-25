@@ -1,21 +1,23 @@
 {
-  "name": "axon",
+  "name": "pm2-axon",
   "description": "High-level messaging & socket patterns implemented in pure js",
-  "version": "2.0.3",
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
+  "version": "3.3.0",
+  "author": {
+    "name": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca"
+  },
   "dependencies": {
-    "debug": "*",
-    "configurable": "0.0.1",
+    "debug": "^3.0",
     "escape-regexp": "0.0.1",
     "amp-message": "~0.1.1",
     "amp": "~0.3.1"
   },
   "devDependencies": {
-    "better-assert": "~1.0.1",
-    "commander": "~2.4.0",
-    "humanize-number": "0.0.1",
-    "mocha": "~1.21.5",
-    "should": "~4.1.0"
+    "better-assert": "*",
+    "should": "*",
+    "mocha": "^3.5",
+    "commander": "*",
+    "humanize-number": "0.0.1"
   },
   "keywords": [
     "zmq",
