@@ -4,3 +4,4 @@ test:
   - apk add --update make bash
   - npm install
   - npm test
+  - make bench

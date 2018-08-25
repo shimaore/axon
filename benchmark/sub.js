@@ -26,7 +26,7 @@ sock.on('message', function(msg){
     var sec = ms / 1000;
     var persec = ops / sec | 0;
     results.push(persec);
-    process.stdout.write('\r  [' + persec + ' ops/s] [' + n + ']');
+    // process.stdout.write('\r  [' + persec + ' ops/s] [' + n + ']');
     prev = Date.now();
   }
 });
