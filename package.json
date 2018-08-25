@@ -10,14 +10,14 @@
     "debug": "^3.0",
     "escape-regexp": "0.0.1",
     "amp-message": "~0.1.1",
-    "amp": "~0.3.1"
+    "@shimaore/amp": "^0.4.0"
   },
   "devDependencies": {
     "better-assert": "*",
-    "should": "*",
-    "mocha": "^3.5",
     "commander": "*",
-    "humanize-number": "0.0.1"
+    "humanize-number": "0.0.1",
+    "mocha": "^5.2.0",
+    "should": "*"
   },
   "keywords": [
     "zmq",
