@@ -13,7 +13,7 @@ var done = false;
 pub.bind(4000);
 
 setTimeout(function() {
-  pub.send('foo', { bar: 'baz' }, ['some', 1], new Buffer('hello'));
+  pub.send('foo', { bar: 'baz' }, ['some', 1], new Buffer.from('hello'));
 }, 50);
 
 sub.connect(4000);
