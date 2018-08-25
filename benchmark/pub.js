@@ -15,7 +15,7 @@ sock.on('disconnect', process.exit);
 console.log('pub bound');
 
 var perTick = program.perTick || 1000;
-var buf = new Buffer(Array(program.size || 1024).join('a'));
+var buf = Buffer.from(Array(program.size || 1024).join('a'));
 console.log('sending %d per tick', perTick);
 console.log('sending %d byte messages', buf.length);
 

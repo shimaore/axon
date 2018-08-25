@@ -9,8 +9,8 @@
   "dependencies": {
     "debug": "^3.0",
     "escape-regexp": "0.0.1",
-    "amp-message": "~0.1.1",
-    "@shimaore/amp": "^0.4.0"
+    "@shimaore/amp-message": "^0.2.1",
+    "@shimaore/amp": "^0.4.1"
   },
   "devDependencies": {
     "better-assert": "*",
