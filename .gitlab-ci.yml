@@ -1,5 +1,6 @@
 image: node:alpine
 test:
   script:
+  - apk add --update make bash
   - npm install
   - npm test
