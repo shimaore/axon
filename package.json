@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/visionmedia/axon.git"
+    "url": "https://gitlab.com/shimaore/axon.git"
   },
   "scripts": {
     "test": "make test"
