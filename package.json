@@ -1,7 +1,7 @@
 {
   "name": "@shimaore/axon",
   "description": "High-level messaging & socket patterns implemented in pure js",
-  "version": "3.4.3",
+  "version": "3.4.4",
   "author": {
     "name": "TJ Holowaychuk",
     "email": "tj@vision-media.ca"
