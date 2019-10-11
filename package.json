@@ -7,7 +7,7 @@
     "email": "tj@vision-media.ca"
   },
   "dependencies": {
-    "debug": "^3.0",
+    "debug": "^4.1.1",
     "escape-regexp": "0.0.1",
     "@shimaore/amp-message": "^0.2.1",
     "@shimaore/amp": "^0.4.1"
@@ -15,8 +15,8 @@
   "devDependencies": {
     "better-assert": "*",
     "commander": "*",
-    "humanize-number": "0.0.1",
-    "mocha": "^5.2.0",
+    "humanize-number": "0.0.2",
+    "mocha": "^6.2.1",
     "should": "*"
   },
   "keywords": [
